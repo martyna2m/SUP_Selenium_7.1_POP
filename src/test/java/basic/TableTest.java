@@ -19,6 +19,5 @@ public class TableTest extends TestBase {
 
         System.out.println(tablePage.getPeaksMeetingConditions(countryCondition, heightCondition));
 
-
     }
 }
