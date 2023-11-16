@@ -25,13 +25,16 @@ public class TablePage {
     }
 
 
-    public List<String> getPeaksMeetingConditions(String countryCondition, int heightCondition) {
+    public List<TableRowComponent> getPeaksMeetingConditions(String countryCondition, int heightCondition) {
         return getRows().stream()
                 .filter(r -> (r.getHeight() > heightCondition) && (r.getState().contains(countryCondition)))
-                .map(r -> "Peak: " + r.getPeakName() + ", Rank: " + r.getRank() + ", Mountain Range: " + r.getMountainRange() + "\n")
                 .collect(Collectors.toList());
     }
 
+
+    public void printPeaks(List<TableRowComponent> selectedPeaks) {
+        System.out.println(selectedPeaks.toString().replace("[", "").replace("]", ""));
+    }
 }
 
 

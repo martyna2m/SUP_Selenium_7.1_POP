@@ -17,7 +17,7 @@ public class TableTest extends TestBase {
         String countryCondition = "Switzerland";
         int heightCondition = 4000;
 
-        System.out.println(tablePage.getPeaksMeetingConditions(countryCondition, heightCondition));
+        tablePage.printPeaks((tablePage.getPeaksMeetingConditions(countryCondition, heightCondition)));
 
     }
 }

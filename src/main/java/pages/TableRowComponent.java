@@ -45,8 +45,14 @@ public class TableRowComponent {
         return state.getText();
     }
 
-    public String getRank(){
+    public String getRank() {
         return rank.getText();
     }
 
+
+    @Override
+    public String toString() {
+        return "Peak: " + getPeakName() + ", " + "Rank: " + getRank() + ", " + "Mountain range: " + getMountainRange() + "\n";
+
+    }
 }
