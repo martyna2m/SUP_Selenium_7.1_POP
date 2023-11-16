@@ -12,7 +12,7 @@ public class FormTest extends TestBase {
 
     @Test
     @Tag("basic")
-    void fillTheForm() {
+    void fillAndSubmitTheForm() {
         openWebsite("http://www.seleniumui.moderntester.pl/form.php");
 
         FormPage formPage = new FormPage(driver);

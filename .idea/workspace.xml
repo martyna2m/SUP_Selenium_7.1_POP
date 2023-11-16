@@ -43,7 +43,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.TableTest.printPeaksMeetingConditions">
+  <component name="RunManager" selected="JUnit.FormTest">
     <configuration name="FormTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SUP_Selenium_6.1" />
       <extension name="coverage">
@@ -125,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FormTest" />
         <item itemvalue="JUnit.TableTest.printPeaksMeetingConditions" />
         <item itemvalue="JUnit.FormTest.fillTheForm" />
         <item itemvalue="JUnit.TableTest.getPeaks" />
         <item itemvalue="JUnit.TableTest.fillTheForm" />
-        <item itemvalue="JUnit.FormTest" />
       </list>
     </recent_temporary>
   </component>
