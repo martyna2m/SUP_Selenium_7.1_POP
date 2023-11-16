@@ -6,10 +6,10 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.DefaultElementLocatorFactory;
 
-public class TableRowPage {
+public class TableRowComponent {
     WebDriver driver;
 
-    public TableRowPage(WebElement parent) {
+    public TableRowComponent(WebElement parent) {
         PageFactory.initElements(new DefaultElementLocatorFactory(parent), this);
         this.driver = driver;
     }
